@@ -79,4 +79,5 @@ class SnesGamepad:
 
     def getButtons(self):
         self.updateState()
-        return self.buttonStates
+        b = self.buttonStates
+        return b

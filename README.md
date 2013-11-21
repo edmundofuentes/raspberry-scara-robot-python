@@ -10,12 +10,18 @@ The SCARA robot is controlled by a USB SNES controller.
 - *Select*: Change between the 3 types of operation modes
 - *Up/Down*: Control Axis 1 (depends on the operation mode)
 - *Left/Right*: Control Axis 2 (depends on the operation mode)
+- *L*: Decrease speed
+- *R*: Increase speed
 - *A*: Raise the electromagnet
 - *B*: Lower the electromagnet
 - *X*: Enable the electromagnet
 - *Y*: Disable the electromagnet
 
 # Operation Modes
+## Robot
+- *Axis 1*: motor 1 position
+- *Axis 2*: motor 2 position
+
 ## Rectangular
 - *Axis 1*: Y axis
 - *Axis 2*: X axis
@@ -23,7 +29,3 @@ The SCARA robot is controlled by a USB SNES controller.
 ## Polar
 - *Axis 1*: angle
 - *Axis 2*: radius
-
-## Robot
-- *Axis 1*: motor 1 position
-- *Axis 2*: motor 2 position

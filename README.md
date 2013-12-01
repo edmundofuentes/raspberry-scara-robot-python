@@ -6,14 +6,14 @@ Python libraries, code and tests for a custom built SCARA robot project.  Writte
 # Controls
 The SCARA robot is controlled by a USB SNES controller.
 
-- *Start*: Set the current position as zero
-- *Select*: Change between the 3 types of operation modes
+- *Start*: Change between the 3 types of operation modes
+- *Select*: Set the current position as zero
 - *Up/Down*: Control Axis 1 (depends on the operation mode)
 - *Left/Right*: Control Axis 2 (depends on the operation mode)
-- *A*: Raise the electromagnet
-- *B*: Lower the electromagnet
-- *X*: Enable the electromagnet
-- *Y*: Disable the electromagnet
+- *A*: Change direction of the linear actuator
+- *B*: Activate the linear actuator
+- *X*: Global motor disable (Safe stop)
+- *Y*: Toggle auxiliary relay (electromagnet)
 
 # Operation Modes
 ## Rectangular
